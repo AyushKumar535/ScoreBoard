@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreBoard</title>
+    <link rel="stylesheet" href="Scoreboard.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="self">
+            <h1>SELF</h1>
+            <h2 class="score" id="count-el"> 0 </h2>
+            <button id="increment-btn"  onclick="increment()">+1</button>
+            <button id="increment-btn2"  onclick="increment2()">+2</button>
+            <button id="increment-btn3"  onclick="increment3()">+3</button>
+            <button id="increment-btn4"  onclick="increment4()">+5</button>
+        </div>
+
+
+        <div class="guest">
+            <h1>GUEST</h1>
+            <h2 class="score" id="count"> 0 </h2>
+            <button id="increment-btnguest"  onclick="incrementguest()">+1</button>
+            <button id="increment-btnguest2"  onclick="incrementguest2()">+2</button>
+            <button id="increment-btnguest3"  onclick="incrementguest3()">+3</button>
+            <button id="increment-btnguest4"  onclick="incrementguest4()">+5</button>
+        </div>
+        
+    </div>
+    <button id="reset-el" onclick="reset()">RESET</button>
+    <script src="Scoreboard.js"></script>
+</body>
+
+</html>
